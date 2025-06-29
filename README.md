@@ -4,40 +4,40 @@
 
 A sophisticated browser extension for [colonist.io](https://colonist.io) that transforms your Catan experience by providing real-time strategic insights, resource tracking, and future board recommendations to help you dominate every game.
 
-## 🎯 Mission
+## Mission
 
 Catan Portal isn't just another resource tracker. It's your strategic companion that analyzes the board state, tracks all player resources, and provides intelligent recommendations to maximize your win probability. Whether you're a casual player or a competitive strategist, this portal gives you the insights you need to make the best decisions.
 
-## ✨ Features
+## Features
 
-### 🧠 Strategic Intelligence
+### Strategic Intelligence
 
 - **Future Board Recommendations**: Get intelligent suggestions for optimal moves
 - **Win Probability Analysis**: Understand your chances and how to improve them
 - **Strategic Resource Tracking**: Track all resources with theft detection and potential deltas
 
-### 📊 Real-Time Resource Tracking
+### Real-Time Resource Tracking
 
-- **Complete Resource Monitoring**: Brick 🧱, Lumber 🪵, Wool 🐑, Grain 🌾, Ore ⛏️
+- **Complete Resource Monitoring**: Brick, Lumber, Wool, Grain, Ore
 - **Smart Parsing**: Monitors dice rolls, trades, robber events, and building costs
 - **Theft Detection**: Tracks robber, knight, and monopoly card effects
 - **Resource Deltas**: Identifies potential resource discrepancies and theft opportunities
 
-### 🎮 Enhanced Gameplay
+### Enhanced Gameplay
 
 - **Draggable Interface**: Position the overlay anywhere on screen
 - **Debug Mode Toggle**: Show/hide detailed event logs
 - **Persistent Settings**: Username and preferences saved between sessions
 - **Real-Time Updates**: Instant resource tracking from chat log analysis
 
-### 🔧 User Experience
+### User Experience
 
 - **Clean, Modern UI**: Beautiful overlay that doesn't interfere with gameplay
 - **Customizable Position**: Drag and drop interface positioning
 - **Smart Interactions**: Prevents dragging when using controls
 - **Responsive Design**: Adapts to different screen sizes
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -80,7 +80,7 @@ For development with auto-rebuild:
 npm run watch
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ColonistPortal/
@@ -100,7 +100,7 @@ ColonistPortal/
     └── content.bundle.js  # Bundled content script
 ```
 
-## 🧩 Architecture
+## Architecture
 
 The project uses a modular architecture for maintainability and extensibility:
 
@@ -108,7 +108,7 @@ The project uses a modular architecture for maintainability and extensibility:
 - **UIOverlay**: Modern, draggable interface with persistent settings
 - **content.js**: Main coordinator that ties everything together
 
-## 🎮 How It Works
+## How It Works
 
 ### Resource Tracking
 
@@ -134,7 +134,7 @@ The extension intelligently parses colonist.io chat logs to track:
 - **Persistent Settings**: Username and preferences saved automatically
 - **Smart Interactions**: Prevents accidental dragging when using controls
 
-## 🔍 Supported Chat Patterns
+## Supported Chat Patterns
 
 The extension recognizes and processes these chat log patterns:
 
@@ -148,7 +148,7 @@ The extension recognizes and processes these chat log patterns:
 - `"built a settlement"` - Settlement building costs (1 lumber, 1 brick, 1 wool, 1 grain)
 - `"bought development card"` - Development card costs (1 ore, 1 grain, 1 wool)
 
-## 🎯 Future Roadmap
+## Future Roadmap
 
 This is just the beginning! Planned features include:
 
@@ -158,7 +158,7 @@ This is just the beginning! Planned features include:
 - **Social Features**: Share strategies and compare with other players
 - **Customizable Alerts**: Notifications for strategic opportunities
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Whether it's:
 
@@ -169,18 +169,14 @@ We welcome contributions! Whether it's:
 
 Please feel free to open issues or submit pull requests.
 
-## 📄 License
+## License
 
 MIT License - Feel free to use, modify, and distribute as needed.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built for the Catan community by players who understand the strategic depth of this amazing game. Special thanks to the colonist.io team for providing such a great platform.
 
 ---
 
-**Ready to dominate Catan? Install Catan Portal and start your journey to strategic mastery! 🏆**
-
-```
-
-```
+**Ready to dominate Catan? Install Catan Portal and start your journey to strategic mastery!**

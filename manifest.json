@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Colonist Portal",
+  "version": "1.0",
+  "description": "you wont lose another 1v1...",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["scripting", "storage"],
+  "host_permissions": [
+    "https://colonist.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://colonist.io/*"],
+      "js": ["dist/content.bundle.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["card_images/*"],
+      "matches": ["https://colonist.io/*"]
+    }
+  ]
+} 
